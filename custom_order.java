@@ -125,5 +125,24 @@ System.out.println("_________________________________________");.
 tax = cost * TAX_RATE;
 System.out.printf("The tax is: $%.2f\n", tax);
 System.out.printf("The total due is: $%.2f\n",(tax + cost));
-    }   int totalCost
-}String addOnList
+    }   
+}
+
+//Working on my cupcake shop
+
+int totalCost;
+String addOnList;
+
+// A custom method that takes a string
+
+static void addItem(String item, int cost) {
+  totalCost+=cost;
+  addOnList+=item;
+}
+
+//Do you want filling? We have
+
+if (frostingType != "no"){
+  addItem(frostingType,2);
+  addOnList+="Ice cream, Cookies,  Sweets";
+}
